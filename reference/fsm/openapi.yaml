@@ -3,7 +3,7 @@ info:
   title: Zones
   version: '1.0'
 servers:
-  - url: 'https://devfsm.westus.cloudapp.azure.com/FsmREST/api/'
+  - url: 'https://devfsm.westus.cloudapp.azure.com/FsmREST/api/1'
 paths:
   '/auth/zones/{zoneID}':
     parameters:
