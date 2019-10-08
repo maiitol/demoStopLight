@@ -50,6 +50,7 @@ paths:
           in: header
           name: Authorization
           description: ''
+          required: true
 components:
   schemas: {}
   securitySchemes:
