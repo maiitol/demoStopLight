@@ -24,6 +24,32 @@ paths:
       responses:
         '200':
           description: OK
+      description: ''
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties: {}
+        description: |-
+          {
+            name:string,
+            countryId:integer,
+            stateSrovidenceRegionId:integer,
+            cityId:integer,
+            communeId:integer,
+            tds: {
+              tenantId:integer,
+              domiainId:integer,
+              subdomainId:integer
+            }
+          }
+      parameters:
+        - schema:
+            type: string
+          in: header
+          name: Authorization
+          description: ''
 components:
   schemas: {}
   securitySchemes:
